@@ -1,0 +1,272 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+   background: rgb(13, 207, 133);
+   position: fixed;
+}
+.img img{
+    
+    margin-left: 100px;
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 50px;
+}
+
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li {
+    font-family: Phetsarath OT;
+    font-size: 20px;
+    list-style: none;
+    margin: 0 20px;
+    color: bisque;
+    cursor: pointer;
+    
+}
+.menu ul li a {
+    font-family: Phetsarath OT;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 20px;
+    color: bisque;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+.dropdown-content{
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.menu1:hover .dropdown-content{
+    display: block;
+}
+
+.active{
+    color: #7efa19 !important;
+}
+.sigup-btn{
+    font-size: 20px;
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: rgb(230, 230, 243);
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(13, 207, 133),rgb(13, 207, 133)),
+    radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+
+}
+.sigup-btn>span{
+    font-family: 'Phetsarath ot';
+}
+
+.sigup-btn span{
+    display: block;
+    padding: 8px 22px;
+}
+ */
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ body{
+     font-family: 'phetsarath ot';
+     background-color: rgb(245, 245, 245);
+ }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(16, 163, 90);
+    height:120px;
+  }
+  
+  li {
+    float: left;
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .image1 {
+    width: 100px;
+    margin-top: -.9rem;
+    border-radius: 50px;
+
+}
+
+  .button{
+      float: right;
+      margin-top: -3rem;
+    margin-right: 14px;
+   
+  }
+  button{
+   font-family: Phetsarath OT;
+    width:100px;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 20rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color:#fc8884;
+    color:white;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+  }
+  button:hover{
+      background-color:#f0726e ;
+  }
+
+
+  section{
+      margin-top: 6rem;
+  }
+.flex-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.people_1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.people1{
+margin-left: 6rem;
+}
+.image{
+    width: 200px;
+    height: 220px;
+    border-radius: 5px;
+
+}
+.flex-box1{
+    display: flex;
+}
+
+
+.main-info-detail{
+    display: flex;
+}
+.people_2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+.people2{
+    background-color: white;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.people3{
+    background-color: white;
+    width: 200px;
+    margin-left: 6rem;
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.people4{
+    background-color: white;
+    width: 200px;
+    margin-left: 8rem;
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.people5{
+    background-color: white;
+    width: 200px;
+    margin-left: 5rem;
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.people2, .people3, .people4, .people5{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+footer{
+    background-color: teal;
+    margin-top: 10rem;
+    padding: 20px;
+}
+.footer-info{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-info p{
+    color: white;
+}
+
+
+
+
